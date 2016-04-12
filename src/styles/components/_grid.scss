@@ -1,11 +1,9 @@
 $pad: $grid-padding;
 
 .grid {
-  background: white;
   margin: 0 0 $pad 0;
 
   &:after {
-    /* Or @extend clearfix */
     content: "";
     display: table;
     clear: both;
@@ -45,7 +43,6 @@ $pad: $grid-padding;
     padding-right: $pad;
   }
   &:after {
-    /* Or @extend clearfix */
     content: "";
     display: table;
     clear: both;

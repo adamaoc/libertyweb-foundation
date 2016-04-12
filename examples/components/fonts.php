@@ -9,6 +9,7 @@
       <h3>Header Three</h3>
       <h4>Header Four</h4>
       <h5>Header Five</h5>
+      <h6>Header Six</h6>
     </div>
     <div class="col-2-3">
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
@@ -16,6 +17,7 @@
   </div>
 
   <div class="grid-pad">
+
     <article class="usa-article col-2-3">
       <h1>HTML Ipsum Presents</h1>
 
@@ -29,6 +31,7 @@
       </ol>
 
       <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+      <blockquote>Dolor sit amet, <small>consectetur adipiscing elit.</small> Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.<cite>Lorem ipsum</cite></blockquote>
 
       <h3>Header Level 3</h3>
 
@@ -44,6 +47,19 @@
       	height: 80px;
       }
       </code></pre>
+      <p>Don't save the document by pressing <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
     </article>
+
+    <aside class="col-1-3">
+      <label>Alternate Headings</label>
+      <h1><em>Emphasized heading</em> With other heading text!</h1>
+      <hr>
+      <h2>Big Heading Text <span>Text in span tag</span> With more heading Text!</h2>
+      <hr>
+      <h2><small>small text</small> With big  header text</h2>
+      <hr>
+      <h2>Basic Header <strong>with more bold text</strong></h2>
+    </aside>
+
   </div>
 </div>

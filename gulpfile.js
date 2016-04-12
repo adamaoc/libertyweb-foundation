@@ -10,7 +10,7 @@ gulp.task('sass', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('public/styles'))
+        .pipe(gulp.dest('dist/styles'))
         .pipe(livereload());
 });
 

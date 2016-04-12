@@ -1,0 +1,119 @@
+h1, h2, h3,
+h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 1rem;
+    font-family: $header-font;
+    span {
+      font-weight: 100;
+      font-size: 0.75em;
+    }
+    em {
+      font-size: 0.75em;
+      font-style: italic;
+    }
+    strong {
+      display: block;
+      margin: 0;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #333;
+    }
+    small {
+      font-size: 1.2rem;
+      font-weight: normal;
+      display: block;
+      margin: 0;
+    }
+}
+
+h1 {
+    font-size: 3.125rem;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    text-indent: -3px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    text-indent: -2px;
+}
+
+h3 {
+    font-size: 2.1875rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p, ul, ol {
+    margin: 0 0 0.75em 0;
+}
+ul, ol {
+  margin-left: 1em;
+}
+ol ol, ul ul,
+ul ol, ol ul {
+    margin: 0.4em 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $font-color;
+    margin: 3.2em 0;
+    padding: 0;
+}
+
+
+
+blockquote {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 1.6em 0 1.6em 0;
+    padding: 0 0.25em 0 1.6em;
+    border-left: $font-color 0.6em solid;
+    font-size: 1.125em;
+}
+
+blockquote p {
+    margin: 0.8em 0;
+    font-style: italic;
+}
+
+blockquote cite {
+    display: inline-block;
+    margin: 0.8em 0 0.8em 1.5em;;
+    font-size:0.9em;
+    color: palette(secGray, darkest);
+}
+
+blockquote cite:before { content: '\2014 \00A0'; }
+
+kbd {
+    display: inline-block;
+    margin-bottom: 0.4em;
+    padding: 1px 8px;
+    border: #ccc 1px solid;
+    color: #666;
+    text-shadow: #fff 0 1px 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    background: #f4f4f4;
+    border-radius: 4px;
+    box-shadow:
+        0 1px 0 rgba(0, 0, 0, 0.2),
+        0 1px 0 0 #fff inset;
+}

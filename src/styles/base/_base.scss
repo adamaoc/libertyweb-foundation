@@ -1,6 +1,6 @@
 @import "normalize";
-@import "settings";
 @import "functions";
+@import "settings";
 
 
 *{
@@ -39,6 +39,15 @@ hr {
     border-top: 1px solid $font-color;
     margin: 1em 0;
     padding: 0;
+}
+
+a {
+    color: palette(priBlue, base);
+    transition: $base-transition;
+}
+
+a:hover {
+    color: palette(priBlue, darker);
 }
 
 img {

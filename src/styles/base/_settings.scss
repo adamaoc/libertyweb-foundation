@@ -16,7 +16,7 @@ $paletteColors: (
 	priWhite: (
 	  base: #ffffff,
     dark: #f2f2f2,
-		darker: #f1f1f1,
+		darker: #e2e2e2,
 	),
 	altBlue: (
     base: #02bfe7,
@@ -64,11 +64,15 @@ $paletteColors: (
 );
 // to use color - background: palette('blue', 'dark');
 
-// fonts
+// font settings
 $base-font-size: 16px;
 $base-line-height: 1.6;
-$font-color: palette(priGray);
+$font-color: palette(priGray, dark);
 $font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+
+$header-font: color ease-in-out 280ms;
+
+$base-transition: all ease-in-out 280ms;
 
 $base-bg-color: palette(priWhite, dark);
 
