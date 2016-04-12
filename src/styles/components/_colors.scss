@@ -1,0 +1,50 @@
+@each $colorGroup, $colors in $paletteColors {
+  @each $name, $color in $colors {
+    .#{$colorGroup + '-' + $name} {
+      background: $color;
+    }
+  }
+}
+
+
+.color-group {
+  display: flex;
+  margin-bottom: 1em;
+  &__label {
+    padding-top: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 180px;
+  }
+}
+.color-box {
+  width: 150px;
+  height: 150px;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  &.inverse-color {
+    label {
+      color: #444;
+    }
+  }
+  &--wrap {
+    flex: 1;
+    span {
+      display: block;
+      padding-left: 1rem;
+      color: #888;
+      font-style: italic;
+      font-size: 0.75rem;
+    }
+  }
+}

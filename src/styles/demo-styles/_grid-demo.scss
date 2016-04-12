@@ -1,0 +1,10 @@
+.grid-wrap {
+  padding: 1em;
+  margin-bottom: 2em;
+  overflow: hidden;
+  .grid > div > div, .grid-pad > div > div {
+    background: palette(priBlue, base);
+    color: white;
+    padding: 1em;
+  }
+}

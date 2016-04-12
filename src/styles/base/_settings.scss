@@ -1,0 +1,85 @@
+// default variables based on U.S. Web Design Standards
+// https://playbook.cio.gov/designstandards/visual-style/
+
+// colors:
+$paletteColors: (
+  priBlue: (
+    base: #0071bc,
+    dark: #205493,
+	  darker: #112e51,
+	),
+	priGray: (
+	  base: #aeb0b5,
+	  dark: #323a45,
+    darker: #212121,
+	),
+	priWhite: (
+	  base: #ffffff,
+    dark: #f2f2f2,
+		darker: #f1f1f1,
+	),
+	altBlue: (
+    base: #02bfe7,
+    lightest: #e1f3f8,
+	  light: #9bdaf1,
+		dark: #00a6d2,
+    darkest: #046b99,
+	),
+	priRed: (
+    base: #e31c3d,
+    lightest: #f9dede,
+	  light: #e59393,
+		dark: #cd2026,
+    darkest: #981b1e,
+	),
+	secGray: (
+    base: #323a45,
+    lightest: #f1f1f1,
+	  light: #d6d7d9,
+		dark: #aeb0b5,
+    darkest: #5b616b,
+	),
+	priGreen: (
+    base: #2e8540,
+    lightest: #e7f4e4,
+	  light: #94bfa2,
+    dark: #4aa564,
+	),
+  coolBlue: (
+    base: #205493,
+    lightest: #dce4ef,
+	  light: #8ba6ca,
+    dark: #4773aa,
+  ),
+	priGold: (
+    base: #fdb81e,
+    lightest: #fff1d2,
+	  light: #fad980,
+    dark: #f9c642,
+	),
+	warmDark: (
+	  base: #494440,
+		light: #e4e2e0,
+	)
+);
+// to use color - background: palette('blue', 'dark');
+
+// fonts
+$base-font-size: 16px;
+$base-line-height: 1.6;
+$font-color: palette(priGray);
+$font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+
+$base-bg-color: palette(priWhite, dark);
+
+$selection-color: palette(priBlue, base);
+$selection-text: palette(priWhite);
+
+
+// grid
+$xs: 20rem;
+$sm: 40rem;
+$md: 60rem;
+$lg: 80rem;
+
+$grid-padding: 1em;
