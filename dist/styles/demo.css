@@ -809,6 +809,13 @@ button {
       border: 1px solid #981b1e;
       color: #981b1e; }
 
+.btn--large {
+  font-size: 1.125em; }
+
+.btn--xlarge {
+  width: 100%;
+  font-size: 1.125em; }
+
 .grid-wrap {
   padding: 1em;
   margin-bottom: 2em;

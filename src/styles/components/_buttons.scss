@@ -99,4 +99,11 @@ button {
       }
     }
   }
+  &--large {
+    font-size: 1.125em;
+  }
+  &--xlarge {
+    width: 100%;
+    font-size: 1.125em;
+  }
 }

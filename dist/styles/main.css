@@ -808,3 +808,10 @@ button {
       background: transparent;
       border: 1px solid #981b1e;
       color: #981b1e; }
+
+.btn--large {
+  font-size: 1.125em; }
+
+.btn--xlarge {
+  width: 100%;
+  font-size: 1.125em; }
