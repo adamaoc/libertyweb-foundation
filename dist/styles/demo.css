@@ -733,6 +733,82 @@ table.plain tbody > tr:nth-child(odd) > th {
   border-left: none;
   border-right: 1px solid #475363; }
 
+button {
+  border: none;
+  background: #aeb0b5;
+  color: #ffffff;
+  padding: 0.75em 1.75em;
+  transition: all ease-in-out 280ms; }
+  button:hover {
+    background: #5b616b; }
+  button:focus {
+    outline: none; }
+
+.btn-base {
+  background: #aeb0b5; }
+  .btn-base:hover {
+    background: #323a45; }
+  .btn-base-alt {
+    background: #323a45; }
+    .btn-base-alt:hover {
+      background: #5b616b; }
+  .btn-base--inverse {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+    .btn-base--inverse:hover {
+      background: transparent;
+      border: 1px solid #e2e2e2;
+      color: #e2e2e2; }
+  .btn-base--outline {
+    background: transparent;
+    border: 1px solid #323a45;
+    color: #323a45; }
+    .btn-base--outline:hover {
+      background: transparent;
+      border: 1px solid #5b616b;
+      color: #5b616b; }
+
+.btn-pri {
+  background: #0071bc; }
+  .btn-pri:hover {
+    background: #205493; }
+  .btn-pri-alt {
+    background: #02bfe7; }
+    .btn-pri-alt:hover {
+      background: #00a6d2; }
+  .btn-pri--inverse {
+    background: #ffffff;
+    color: #323a45; }
+    .btn-pri--inverse:hover {
+      background: #e2e2e2;
+      color: #323a45; }
+  .btn-pri--outline {
+    background: transparent;
+    border: 1px solid #0071bc;
+    color: #0071bc; }
+    .btn-pri--outline:hover {
+      background: transparent;
+      border: 1px solid #112e51;
+      color: #112e51; }
+
+.btn-sec {
+  background: #e31c3d; }
+  .btn-sec:hover {
+    background: #cd2026; }
+  .btn-sec-alt {
+    background: #e59393; }
+    .btn-sec-alt:hover {
+      background: #cd2026; }
+  .btn-sec--outline {
+    background: transparent;
+    border: 1px solid #e31c3d;
+    color: #e31c3d; }
+    .btn-sec--outline:hover {
+      background: transparent;
+      border: 1px solid #981b1e;
+      color: #981b1e; }
+
 .grid-wrap {
   padding: 1em;
   margin-bottom: 2em;

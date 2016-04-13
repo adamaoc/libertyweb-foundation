@@ -20,6 +20,7 @@
           require_once './components/fonts.php';
           require_once './components/table.php';
           require_once './components/base-top-nav.php';
+          require_once './components/buttons.php';
         ?>
         <script src="../dist/js/main.js"></script>
 

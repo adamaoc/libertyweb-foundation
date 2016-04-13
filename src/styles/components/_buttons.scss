@@ -1,0 +1,102 @@
+button {
+  border: none;
+  background: palette(priGray, base);
+  color: palette(priWhite);
+  padding: 0.75em 1.75em;
+  transition: $base-transition;
+  &:hover {
+    background: palette(secGray, darkest);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  &-base {
+    background: palette(priGray);
+    &:hover {
+      background: palette(priGray, dark);
+    }
+    &-alt {
+      background: palette(secGray);
+      &:hover {
+        background: palette(secGray, darkest);
+      }
+    }
+    &--inverse {
+      background: transparent;
+      border: 1px solid palette(priWhite);
+      color: palette(priWhite);
+      &:hover {
+        background: transparent;
+        border: 1px solid palette(priWhite, darker);
+        color: palette(priWhite, darker);
+      }
+    }
+    &--outline {
+      background: transparent;
+      border: 1px solid palette(secGray);
+      color: palette(secGray);
+      &:hover {
+        background: transparent;
+        border: 1px solid palette(secGray, darkest);
+        color: palette(secGray, darkest);
+      }
+    }
+  }
+  &-pri {
+    background: palette(priBlue);
+    &:hover {
+      background: palette(priBlue, dark);
+    }
+    &-alt {
+      background: palette(altBlue);
+      &:hover {
+        background: palette(altBlue, dark);
+      }
+    }
+    &--inverse {
+      background: palette(priWhite);
+      color: palette(priGray, dark);
+      &:hover {
+        background: palette(priWhite, darker);
+        color: palette(priGray, dark);
+      }
+    }
+    &--outline {
+      background: transparent;
+      border: 1px solid palette(priBlue);
+      color: palette(priBlue);
+      &:hover {
+        background: transparent;
+        border: 1px solid palette(priBlue, darker);
+        color: palette(priBlue, darker);
+      }
+    }
+  }
+
+  &-sec {
+    background: palette(priRed);
+    &:hover {
+      background: palette(priRed, dark);
+    }
+    &-alt {
+      background: palette(priRed, light);
+      &:hover {
+        background: palette(priRed, dark);
+      }
+    }
+
+    &--outline {
+      background: transparent;
+      border: 1px solid palette(priRed);
+      color: palette(priRed);
+      &:hover {
+        background: transparent;
+        border: 1px solid palette(priRed, darkest);
+        color: palette(priRed, darkest);
+      }
+    }
+  }
+}
